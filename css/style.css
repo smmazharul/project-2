@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    font-size: 23px;
+    font-weight: 500;
+}
+input{
+    padding: 10px;
+    max-width: 100%;
+    outline: none;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 6px 6px 2px rgb(178, 177, 177);
+    padding: 25px;
+    margin-top: 50px;
+}
+.name-field{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.firstName{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 50%;
+}
+
+
+
+.lastName{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ min-width: 50%;
+}
+
+
+.email-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.email-field .email{
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    gap: 10px;
+}
+
+.job-role{
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    gap: 10px;
+}
+.job-role #job{
+    padding: 10px;
+    max-width: 100%;
+    outline: none;
+}
+option {
+    font-size: 22px;
+}
+option:hover{
+    background: #000 !important;
+}
+.address-section{
+    margin-top: 30px;
+    width: 100%;
+}
+.address-section textarea{
+    width: 101%;
+    margin-top: 10px;
+}
+
+.city-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.city-field{
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    gap: 10px;
+}
+.pincode{
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    gap: 10px;
+}
+
+.date-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.date-field{
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    gap: 10px;
+}
+.file-field{
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    gap: 10px;
+}
+#file{
+    border: 1px solid rgb(150, 149, 149);
+}
+.submit{
+    margin-top: 20px;
+    text-align: right;  
+    width: 101%;
+}
+input[type="submit"]{
+    width: 20%;
+    font-size: 24px;
+    font-weight: 600;
+    color: aliceblue;
+    background: #000;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    transition: 0.9s;
+}
+input[type="submit"]:hover{
+   
+    color: aliceblue;
+    background: orangered;
+    
+}
